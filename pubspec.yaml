@@ -30,4 +30,4 @@ dev_dependencies:
   very_good_analysis: ^5.0.0
 
 dependency_overrides:
-  build: ^2.4.1
+  build: ^3.0.0
