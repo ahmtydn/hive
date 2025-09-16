@@ -17,7 +17,11 @@ environment:
   sdk: ">=3.1.0 <4.0.0"
 
 dependencies:
-  isar: ^4.0.0-dev.13
+  isar:
+    git:
+      url: https://github.com/ahmtydn/isar.git
+      ref: isar-dev
+      path: packages/isar
   meta: ^1.9.0
 
 dev_dependencies:
