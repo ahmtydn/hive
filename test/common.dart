@@ -4,7 +4,7 @@ import 'dart:math';
 
 import 'package:hive/hive.dart';
 import 'package:hive/src/impl/frame.dart';
-import 'package:isar/isar.dart';
+import 'package:isar_plus/isar_plus.dart';
 import 'package:test/test.dart';
 
 const _releases = 'https://github.com/isar/isar/releases/download/';

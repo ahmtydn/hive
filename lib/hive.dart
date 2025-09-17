@@ -7,9 +7,9 @@ import 'dart:isolate'
     if (dart.library.html) 'package:hive/src/impl/isolate_stub.dart';
 
 import 'package:hive/src/impl/frame.dart';
-import 'package:isar/isar.dart';
+import 'package:isar_plus/isar_plus.dart';
 
-part 'src/impl/box_impl.dart';
-part 'src/impl/type_registry.dart';
 part 'src/box.dart';
 part 'src/hive.dart';
+part 'src/impl/box_impl.dart';
+part 'src/impl/type_registry.dart';
